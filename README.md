@@ -14,24 +14,24 @@
 * [Czym są zmienne?](#czym_sa_zmienne)
 
 ## 🏓 <a name="wprowadzenie_do_skript">Wprowadzenie do Skript'a</a>
-Skript jest dobry dla początkujących osób. Jest on alternatywą języka Java, którego w minecraft'cie wykorzystujemy m.in. do pisania pluginów. Całą dokumentację Skripta znajdziesz **[tutaj](https://skriptlang.github.io/Skript/index.html)**. Przydatna w pisaniu skryptów jest znajomość języka angielskiego. Podczas pisania skryptów używa się go praktycznie cały czas. Każdy skrypt zapisywany jest w formacie `.sk`, a następnie jest on czytany przez język Java. Niestety, skrypty nie są tak wydajne jak pluginy, dlatego więszkość użytkowników nie zaleca ich używania. Jednakże, sądzę, że skrypty są dobrym rozwiązaniem na początek przygody z "programowaniem".
+Skript jest dobry dla początkujących osób. Jest on alternatywą języka Java, którego w Minecraft'cie wykorzystujemy m.in. do pisania pluginów. Całą dokumentację Skripta znajdziesz **[tutaj](https://skriptlang.github.io/Skript/index.html)**. Przydatna w pisaniu skryptów jest znajomość języka angielskiego. Podczas pisania skryptów używa się go praktycznie cały czas. Każdy skrypt zapisywany jest w formacie `.sk`, a następnie jest on czytany przez język Java. Niestety, skrypty nie są tak wydajne jak pluginy, dlatego większość użytkowników nie zaleca ich używania. Jednakże, sądzę, że skrypty są dobrym rozwiązaniem na początek przygody z "programowaniem".
 
 ## 🔮 <a name="co_zrobic_aby_zaczac">Co zrobić aby, zacząć pisać skrypty?</a>
-Aby zacząć pisać skrypty, należy zaopatrzeć się w odpowiedni program. Możesz używać domyślnego notatnika, lecz na dłuższą metę, nie będzie on wygodny. Najwygodniejszym programem do pisania na początek jest **[SkIDE](https://skide.liz3.net/)**. Jest on programem, które oferuje podświetlanie składni skrypta, oraz automatyczne uzupełnianie. Program pozwala również dodawanie dodatków zarejestrowanych w **Skript Hub**. Możesz również użyć innego zamiennika np. **[NotePad++](https://notepad-plus-plus.org/downloads/)**. Zalecane jest również wybranie systemu kodowania **UTF-8**, tak aby wszystko zapisałby się poprawnie.
+Aby zacząć pisać skrypty, należy zaopatrzeć się w odpowiedni program. Możesz używać domyślnego notatnika, lecz na dłuższą metę, nie będzie on wygodny. Najwygodniejszym programem do pisania na początek jest **[SkIDE](https://skide.liz3.net/)**. Jest on programem, który oferuje podświetlanie składni skrypta, oraz automatyczne uzupełnianie. Program pozwala również dodawanie dodatków zarejestrowanych w **Skript Hub**. Możesz również użyć innego zamiennika, np. **[NotePad++](https://notepad-plus-plus.org/downloads/)**. Zalecane jest również wybranie systemu kodowania **UTF-8**, tak aby wszystko zapisało się poprawnie.
 
-Aby zacząć swoją przygodę z pisaniem skryptów, należy pobrać odpowiednią wersję pluginu **[Skript](https://github.com/SkriptLang/Skript/releases)**, i następnie wrzucić go do folderu `/plugins/` i zrestartować serwer. Po włączeniu serwera, powinien stworzyć się folder `/Skript/`, wejdź do niego a następnie przejdź do folderu `/scripts/`. W tym folderze powinny znajdować się pliki ukazane na *(Zdjęcie 1)*. Nie przydadzą Ci się one, więc możesz je usunąć.
+Aby zacząć swoją przygodę z pisaniem skryptów, należy pobrać odpowiednią wersję pluginu **[Skript](https://github.com/SkriptLang/Skript/releases)**, i następnie wrzucić go do folderu `/plugins/` i zrestartować serwer. Po restarcie serwera, powinien stworzyć się folder `/Skript/`. Wejdź do niego, a następnie przejdź do folderu `/scripts/`. W tym folderze powinny znajdować się pliki ukazane na *(Zdjęcie 1)*. Nie przydadzą Ci się one, więc możesz je usunąć.
 
 ![1](img/1.PNG)
 
 ## 🍯 <a name="podstawowe_komendy">Podstawowe komendy pluginu Skript</a>
-- `/sk reload [all/(nazwa pliku)]` - Przeładowuje pliki danego skryptu, lub wszystkie dostępnych na twoim serwerze (W przypadku posiadania większej ilości skryptów, zalecane jest przeładowywanie ich pojedyńczo). Załóżmy, że posiadasz skrypt o nazwie `test.sk`, aby go przeładować użyjesz komendy `/sk reload test` lub `/sk reload test.sk`
+- `/sk reload [all/(nazwa pliku)]` - Przeładowywuje pliki danego skryptu, lub wszystkie dostępne na Twoim serwerze (W przypadku posiadania większej ilości skryptów, zalecane jest przeładowywanie ich pojedyńczo). Załóżmy, że posiadasz skrypt o nazwie `test.sk`, aby go przeładować użyjesz komendy `/sk reload test` lub `/sk reload test.sk`
 
-- `/sk disable (nazwa pliku)` - Pozwala wyłączyć dany skrypt, jeżeli jest on włączony. Dzięki tej funkcji, można wyłączyć tymczasowo dany skrypt w tym jego wszyskie funkcje.
+- `/sk disable (nazwa pliku)` - Pozwala wyłączyć dany skrypt, jeżeli jest on włączony. Dzięki tej funkcji, można wyłączyć tymczasowo dany skrypt, w tym jego wszyskie funkcje.
 
-- `/sk enable (nazwa pliku)` - Pozwala włączyć dany skrypt, jeżeli jest on wyłączony. Aby rozpoznać, czy skrypt jest wyłączony z poziomu plików, należy zobaczyć czy posiada przed swoją nazwą `-` przykładowo `-test.sk`. Jeżeli prawidłowo wpiszesz komende `-` powinien zniknąć, a nazwa powinna wyglądać tak: `test.sk`
+- `/sk enable (nazwa pliku)` - Pozwala włączyć dany skrypt, jeżeli jest on wyłączony. Aby rozpoznać, czy skrypt jest wyłączony z poziomu plików, należy zobaczyć czy posiada przed swoją nazwą `-` przykładowo `-test.sk`. Jeżeli prawidłowo wpiszesz komendę `-` powinien zniknąć, a nazwa powinna wyglądać tak: `test.sk`
 
 ## 🛠️ <a name="jak_stworzyc_skrypt">Jak stworzyć swój pierwszy skrypt?</a>
-Aby stworzyć swój pierwszy skrypt należy w ścieżce `/plugins/Skript/scripts` stworzyć plik o nazwie i rozszerzeniu `twojanazwa.sk`, a następnie wejść do niego. Najważniejszą informacją, którą zawsze musisz pamiętać, to poprawne **TAB'owanie** skryptu. Jest ono niezbędne podczas pisania. Możesz użyć również **4 spacji = TAB** lecz nie jest to wygodne. Przejdźmy już do docelowego pisania skryptu, który będzie wyglądał tak:
+Aby stworzyć swój pierwszy skrypt, należy w ścieżce `/plugins/Skript/scripts` stworzyć plik o nazwie i rozszerzeniu `twojanazwa.sk`, a następnie wejść do niego. Najważniejszą informacją, którą zawsze musisz pamiętać, to poprawne **TAB'owanie** skryptu. Jest ono niezbędne podczas pisania. Możesz użyć również **4 spacji = TAB**, lecz nie jest to wygodne. Przejdźmy już do docelowego pisania skryptu, który będzie wyglądał tak:
 
 ```java
 command /test:
@@ -39,7 +39,7 @@ command /test:
     send "Hello world!"
 ```
 
-Zastanawiasz się co do czego służy? Już to tłumaczę:
+Zastanawiasz się, co do czego służy? Już to tłumaczę:
 
 * **command**: Jest to główna struktura, dzięki niej możesz stworzyć swoją własną komendę
 * **trigger**: Jest on wyznacznikiem dla kodu, po którym zaczyna się jego działanie
@@ -63,7 +63,7 @@ command /test:
 
 * **aliases**: Dzięki tej funkcji, możesz uzyskać dodatkowe komendy z tą samą funkcji, bez konieczności powielania jej.
 * **permission**: Funkcja ta, pozwala ustawić permisje do twojej komendy
-* **permission message**: Pozwala ustawić wiadomość, dotyczącą o braku permisji do danej komendy
+* **permission message**: Pozwala ustawić wiadomość, dotyczącą braku permisji do danej komendy
 
 ## 💣 <a name="czym_jest_argument">Czym jest argument?</a>
 Argument to treść wpisywana po twojej komendzie. Przykładowo:
@@ -81,16 +81,16 @@ command /test [<text>]:
     send "Hello world!"
 ```
 
-Forma `[<text>]` nie jest jedynym argumentem, jest ich wiele co postaram się przedstawić w wątku niżej.
+Forma `[<text>]` nie jest jedynym argumentem. Jest ich wiele więcej, co postaram się przedstawić w wątku niżej.
 
 ## 📝 <a name="rodzaje_argumentow">Rodzaje argumentów</a>
 Argumentów do wykorzystania w komendzie jest wiele, postaram Ci się przedstawić najbardziej przydatne:
-* `[<text>]`: Jest on argumentem tekstowym. Najbardziej uniwersalny argument jakiego można użyć w komendzie.
-* `[<player>]`: Argument ten przeznaczony jest dla nicków graczy którzy są online.
+* `[<text>]`: Jest on argumentem tekstowym. Najbardziej uniwersalny argument, jakiego można użyć w komendzie.
+* `[<player>]`: Argument ten przeznaczony jest dla nicków graczy, którzy są online.
 * `[<integer>]`: Wykorzystywany jest do komend, które korzystają z liczb całkowitych
 
 ## 🎯 <a name="if_oraz_else">Czym jest `if` oraz `else`?</a>
-Wiele osób, które zaczynają swoją przygode z pisaniem skryptów, ma problem ze zrozumieniem, czym jest `if` oraz `else`. Postaram się to wyjaśnić poniżej:
+Wiele osób, które zaczynają swoją przygodę z pisaniem skryptów, ma problem ze zrozumieniem, czym jest `if` oraz `else`. Postaram się to wyjaśnić poniżej:
 * `if`: Jest to w dosłownym tłumaczeniu na Polski **jeśli**. Domyślnie sprawdza czy dana wartość, zmienna itp. są `true` czy `false`
 * `else`: Jest przeciwieństwem `if`. Jego dosłowne tłumaczenie to **w przeciwnym razie**. Wykonuje się, jeżeli wartość `if` nie jest uzupełniona, lub gdy ustawiona jest na `false`
 
@@ -112,8 +112,8 @@ Zmienne to forma zapisywania danych. W skrypcie istnieje forma zmiennych:
 * **Zmienna tymczasowa:** `{_twojazmienna}` (Te zmienne po zakończeniu polecenia zostają usuwane)
 * **Zmienna grupowa:** `{twojazmienna::*}` (W tej zmiennej możesz przechowywać listy takie jak: lista graczy, przedmiotów itp.)
 
-Zmienne możesz oddzielać symbolem `.` przykład `{twojazmienna.%player%}`, lecz zalecane używanie jest `{twojazmienna::%player%}`
-Jeżeli chcesz użyć zmiennej w skrypcie, wystarczy wpisać twoją zmienną w `%%` przykład `%{twojazmienna}%`
+Zmienne możesz oddzielać symbolem `.` przykład: `{twojazmienna.%player%}`, lecz zalecane jest używanie `{twojazmienna::%player%}`
+Jeżeli chcesz użyć zmiennej w skrypcie, wystarczy wpisać twoją zmienną w `%%`. Przykład: `%{twojazmienna}%`
 
 ```java
 variables:
