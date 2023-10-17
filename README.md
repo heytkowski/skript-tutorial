@@ -4,7 +4,7 @@
 
 ## Spis treści
 * [Wprowadzenie do Skript'a](#wprowadzenie_do_skript)
-* [Co zrobić aby, zacząć pisać skrypty?](#co_zrobic_aby_zaczac)
+* [Co zrobić, aby zacząć pisać skrypty?](#co_zrobic_aby_zaczac)
 * [Podstawowe komendy pluginu Skript](#podstawowe_komendy)
 * [Jak stworzyć swój pierwszy skrypt?](#jak_stworzyc_skrypt)
 * [Podstawowe funkcje komendy](#podstawowe_funkcje)
